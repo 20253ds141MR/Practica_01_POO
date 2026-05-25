@@ -3,11 +3,11 @@ public class Calculadora1 {
     private double numero1;
     private double numero2;
 
-    public Calculadora(){
+    public Calculadora1(){
 
     }
 
-    public Calculadora(double numero1,double numero2){
+    public Calculadora1(double numero1,double numero2){
         this.numero1=numero1;
         this.numero2=numero2;
     }
@@ -32,4 +32,8 @@ public class Calculadora1 {
             throw new ArithmeticException("Division by zero");
         }
     }
+
+    
+
+
 }
